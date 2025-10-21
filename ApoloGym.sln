@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApoloGym.Model", "ApoloGym.Model\ApoloGym.Model.csproj", "{FDBEF3ED-5EC1-46DD-BD60-2E98BCD27BB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApoloGym.Data", "ApoloGym.Data\ApoloGym.Data.csproj", "{3EB48242-CA13-4C36-B0CB-CC80E021A8A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApoloGym.Business", "ApoloGym.Business\ApoloGym.Business.csproj", "{EAD6A285-E37B-4BD2-B9C1-01DEFA20FA66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApoloGym.API", "ApoloGym.API\ApoloGym.API.csproj", "{1C4A68E2-8F0B-4515-9CF0-745F544D8C4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDBEF3ED-5EC1-46DD-BD60-2E98BCD27BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDBEF3ED-5EC1-46DD-BD60-2E98BCD27BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDBEF3ED-5EC1-46DD-BD60-2E98BCD27BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDBEF3ED-5EC1-46DD-BD60-2E98BCD27BB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EB48242-CA13-4C36-B0CB-CC80E021A8A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EB48242-CA13-4C36-B0CB-CC80E021A8A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EB48242-CA13-4C36-B0CB-CC80E021A8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EB48242-CA13-4C36-B0CB-CC80E021A8A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAD6A285-E37B-4BD2-B9C1-01DEFA20FA66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAD6A285-E37B-4BD2-B9C1-01DEFA20FA66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAD6A285-E37B-4BD2-B9C1-01DEFA20FA66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAD6A285-E37B-4BD2-B9C1-01DEFA20FA66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C4A68E2-8F0B-4515-9CF0-745F544D8C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4A68E2-8F0B-4515-9CF0-745F544D8C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4A68E2-8F0B-4515-9CF0-745F544D8C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4A68E2-8F0B-4515-9CF0-745F544D8C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
