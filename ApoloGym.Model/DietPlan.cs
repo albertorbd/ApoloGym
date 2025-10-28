@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace ApoloGym.Model;
 
@@ -13,24 +14,25 @@ public class DietPlan
 
     [Required]
     [MaxLength(100)]
-    public string? Name { get; set; }
+    public string? DietName { get; set; }
 
     [MaxLength(1000)]
-    public string? Description { get; set; }
+    public string? DietDescription { get; set; }
 
     [Required]
     public string? DietJson { get; set; }
 
     [DataType(DataType.Date)]
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    [JsonIgnore]
     public User? User { get; set; }
 
     public DietPlan() { }
-    public DietPlan(int userId, string name, string description, string dietJson)
+    public DietPlan(int userId, string dietName, string dietDescription, string dietJson)
     {
         UserId = userId;
-        Name = name;
-        Description = description;
+        DietName = dietName;
+        DietDescription = dietDescription;
         DietJson = dietJson;
     }
 }
